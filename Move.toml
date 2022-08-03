@@ -1,0 +1,13 @@
+[package]
+name = "aptos-amm"
+version = "0.0.0"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "25e4d7320a0a4dac20b4c07e353350636a8c3d01"
+subdir = "aptos-move/framework/aptos-framework"
+
+[addresses]
+aptos_amm = "0x1"
+
+
